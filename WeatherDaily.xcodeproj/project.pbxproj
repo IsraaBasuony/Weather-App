@@ -94,6 +94,10 @@
 		0E1D2F372BF931EE00635EFE /* WeatherDaily */ = {
 			isa = PBXGroup;
 			children = (
+				0E1D2F652BF9328600635EFE /* Utility */,
+				0E1D2F642BF9327400635EFE /* Services */,
+				0E1D2F632BF9326A00635EFE /* Models */,
+				0E1D2F622BF9325500635EFE /* Modules */,
 				0E1D2F382BF931EE00635EFE /* WeatherDailyApp.swift */,
 				0E1D2F3A2BF931EE00635EFE /* ContentView.swift */,
 				0E1D2F3C2BF931F000635EFE /* Assets.xcassets */,
@@ -125,6 +129,50 @@
 				0E1D2F552BF931F000635EFE /* WeatherDailyUITestsLaunchTests.swift */,
 			);
 			path = WeatherDailyUITests;
+			sourceTree = "<group>";
+		};
+		0E1D2F622BF9325500635EFE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0E1D2F672BF9335400635EFE /* Details Screen */,
+				0E1D2F662BF9334400635EFE /* Home Screen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0E1D2F632BF9326A00635EFE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0E1D2F642BF9327400635EFE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0E1D2F652BF9328600635EFE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		0E1D2F662BF9334400635EFE /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		0E1D2F672BF9335400635EFE /* Details Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Details Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
