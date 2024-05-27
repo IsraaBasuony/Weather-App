@@ -7,8 +7,10 @@
 
 import Foundation
 
-struct Hour: Codable, Identifiable {
-    
+struct Hour: Codable, Identifiable , Equatable{
+    static func == (firstH: Hour, secH: Hour) -> Bool {
+        firstH.time == secH.time
+    }
     let id = UUID()
     let time: String
     let tempC: Double

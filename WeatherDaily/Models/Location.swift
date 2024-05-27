@@ -15,8 +15,8 @@ struct Location: Codable, Identifiable {
     init() {
         self.name = ""
         self.country = ""
-        self.lat = 30.0
-        self.lon = 30.0
+        self.lat = 30.0412
+        self.lon = 31.141219
     }
 
     enum CodingKeys: String, CodingKey {
